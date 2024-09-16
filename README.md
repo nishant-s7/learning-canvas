@@ -1,15 +1,21 @@
 # Notes
 
-## Basics
+## Basics - [Tutorial](https://youtu.be/Yvz_axxWG4Y?si=A--s_MYEHcXV0hcF)
 
 > For making canvas custom hook: https://medium.com/@pdx.lucasm/canvas-with-react-js-32e133c05258
 
 -   `ctx` => Holds all canvas settings and drawing methods
+-   `ctx.getContext('2d')` => returns a reference to built-in canvas 2d drawing api object
 -   `ctx.fillRect()` => creates a rectangle
 -   `ctx.arc()` => can create circle, curved line or semicircle
 -   _For shapes like rectangle, you can call them directly, but for lines (like arc), we need to call_ `ctx.beginPath()`
 -   `ctx.clearRect()` => clears the canvas
 -   `requestAnimationFrame()` => makes loops for animations
+-   `ctx.fillStyle` => specify fill color
+-   `ctx.strokeStyle` => specify stroke color
+-   `ctx.moveTo` => specify coordinates of start point of a line
+-   `ctx.lineTo` => specify coordinates of end point of a line
+-   `ctx.lineWidth` => specify line width
 
 ## Advanced
 
