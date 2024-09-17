@@ -4,6 +4,7 @@ import {
     Route,
 } from "react-router-dom";
 import Basics from "./components/Basics";
+import Advanced from "./components/Advanced";
 import App from "./App";
 
 const router = createBrowserRouter(
@@ -11,6 +12,7 @@ const router = createBrowserRouter(
         <Route path="/">
             <Route index element={<App />} />
             <Route path="/basics" element={<Basics />} />
+            <Route path="/advanced" element={<Advanced />} />
         </Route>
     )
 );
