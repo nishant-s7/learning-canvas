@@ -26,6 +26,8 @@
 -   `ctx.strokeText()` => write stroked text on canvas
 -   `ctx.textAlign`=> specify alignment of text with respect to vertical axis
 -   `ctx.textBaseline`=> specify alignment of text with respect to horizontal axis
+- `ctx.measureText` => provides useful properties like width used by the text in pixels
+- `ctx.createLinearGradient`
 
 ## Points
 
